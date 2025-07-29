@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #6690cf;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -74,7 +74,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
+  --bs-link-hover-color: #366ec4;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -85,11 +85,256 @@
   box-sizing: border-box;
 }
 
+.bg-blue-light {
+    background-color: #6b9cd1;
+}
+.custom-navbar {
+border-bottom: 2px solid rgba(107, 136, 223, 0.3);
+        }
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+color: white !important;
+ }
+
+ .bg-white-gray {
+    background-color: #f1f1f1;
+}
+.spacer-colored {
+    height: 3rem;
+    background-color: #d1e0f0;
+}
+.header-vitra {
+    background-image: url('../img/FondoAUS.jpg'); /* Puedes cambiar esta URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.header-vitra::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* capa semitransparente */
+    z-index: 1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.15); /* opcional */
+    border-radius: 1rem;
+    backdrop-filter: blur(4px); /* efecto de desenfoque */
+}
+
+.inicio-vitra{
+  background-image: url('../img/Portada.jpg');
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: rgb(247, 248, 250);
+}
+.inicio-vitra::before{
+   content: "";
+   position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* capa semitransparente */
+    z-index: 1;
+}
+.header-content {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background-color: rgba(141, 153, 224, 0.15); /* opcional */
+    border-radius: 1rem;
+    backdrop-filter: blur(4px); /* efecto de desenfoque */
+}
+.bg-white{
+  background-color: rgb(212, 212, 214);
+}
+
+.contact-section{
+  background-image: url('../img/contacto.jpg');
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: rgb(119, 127, 143);
+}
+.full-height {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registrer-section{
+ background-image: url('../img/fondoRegistro.jpg'); /* Puedes cambiar esta URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+.form-container{
+  background: rgba(134, 143, 156, 0.6);
+  padding:30;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0, 0, 0, 0.05);
+  width:100%;
+  max-width: 500x;
+}
+.full-height-section{
+  min-height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.recovery-card{
+  background-color: #dbdfe2 !important;
+  padding: 2rem !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.02) !important;
+}
+.recovery-card h4{
+  font-weight: bold;
+}
+.recovery-card p{
+  color:#555;
+}
+.recovery-card .btn{
+  padding: 0.5rem 2rem;
+}
+.stock-bajo {
+  background-color: #dc3545 !important;
+}
+.stock-medio {
+  background-color: #ffc107 !important;
+}
+.stock-alto {
+  background-color: #28a745 !important;
+}
+.stock-0 {
+    width: 0%;
+}
+.stock-5 {
+    width: 5%;
+}
+.stock-10 {
+    width: 10%;
+}
+.stock-15 {
+    width: 15%;
+}
+.stock-18 {
+    width: 18%;
+}
+.stock-20 {
+    width: 20%;
+}
+.stock-30 {
+    width: 30%;
+}
+.stock-40 {
+    width: 40%;
+}
+.stock-50 {
+    width: 50%;
+}
+.stock-60 {
+    width: 60%;
+}
+.stock-70 {
+    width: 70%;
+}
+.stock-80 {
+    width: 80%;
+}
+.stock-100 {
+    width: 100%;
+}
+.btn-editar{
+  background-color: #5f88b6 !important;
+  color:#fff !important;
+  border:none !important;
+}
+.btn-eliminar{
+  background-color: #c49981 !important;
+  color:#fff !important;
+  border:none !important;
+}
+.btn-editar:hover{
+  background-color: #e4ded7 !important;
+  
+}
+.btn-eliminar:hover{
+  background-color: #e4ded7 !important;
+  
+}
+/* PHP Email Form Messages
+------------------------------*/
+.php-email-form .error-message {
+  display: none;
+  background: #df1529;
+  color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .sent-message {
+  display: none;
+  color: #ffffff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .loading {
+  display: none;
+  background: var(--surface-color);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid var(--accent-color);
+  border-top-color: var(--surface-color);
+  animation: php-email-form-loading 1s linear infinite;
+}
+
+@keyframes php-email-form-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
 }
+
 
 body {
   margin: 0;
@@ -101,7 +346,7 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(120, 121, 124, 0);
 }
 
 hr {
@@ -3997,6 +4242,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
+
 @media (min-width: 1200px) {
   .navbar-expand-xl {
     flex-wrap: nowrap;
@@ -4147,7 +4393,10 @@ textarea.form-control-lg {
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-
+/* Estilo de fuente global */
+body, .navbar, .navbar-brand, .nav-link {
+    font-family: 'Poppins', sans-serif;
+}
 .card {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
@@ -10845,4 +11094,27 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+body, .navbar, .navbar-brand, .nav-link {
+  font-family: 'Poppins', sans-serif;
 }
