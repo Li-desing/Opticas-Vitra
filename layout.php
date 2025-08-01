@@ -14,7 +14,9 @@ function MostrarMenu(){
                             <li class="nav-item"><a class="nav-link" href="anteojos.php">Anteojos</a></li>
                             <li class="nav-item"><a class="nav-link" href="iniciarSesion.php">Iniciar Sesión</a></li>
                             <li class="nav-item"><a class="nav-link" href="inventario.php">Inventario</a></li>
-                            
+                            <li class="nav-item"><a class="nav-link" href="facturacion.php">Facturación</a></li>
+                            <li class="nav-item"><a class="nav-link" href="reportes.php">Reportes</a></li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Citas</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
