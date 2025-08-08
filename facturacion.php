@@ -23,12 +23,31 @@
     <a href="nuevaFactura.php" class="btn btn-success">
         <i class="bi bi-plus-circle"></i>Nueva Factura</a>
 </div>
+
+<div class="d-flex justify-content-center">
+<form class="row g-3 align-items-end mb-4">
+    
+<div class="col-md-12">
+  <label for="cedulaInput" class="form-label">Filtrar por número de factura</label>
+   <input type="text" id="codigoInput" class="form-control" placeholder="F-1525">   
+</div>
+  <div class="col-md-4">
+        <label for="fechaInicio" class="form-label">Desde</label>
+        <input type="date" id="fechaInicio" class="form-control">
+    </div>
+    <div class="col-md-4">
+         <label for="fechaFin" class="form-label">Hasta</label>
+        <input type="date" id="fechaFin" class="form-control">
+    </div>
+</form>
+</div>
 <div class="table-responsive">
   <table class="table align-middle">
     <thead>
       <tr>
        <th>Número Factura</th>
        <th>Fecha</th>
+       <th>Cédula de Cliente</th>
        <th>Cliente</th>
        <th>Total</th>
        <th>Estado</th>
@@ -39,6 +58,7 @@
       <tr>
           <td>F-00111</td>
           <td>2025-07-28</td>
+          <td>2522585</td>
           <td>Chase Gonzalez</td>
           <td>₡20.000</td>
            <td><spam class="badge bg-success">Pagada</span></td>
@@ -53,6 +73,7 @@
         <tr>
           <td>F-00222</td>
           <td>2025-07-28</td>
+          <td>2522585</td>
           <td>Chase Gonzalez</td>
           <td>₡50.000</td>
            <td><spam class="badge bg-danger">Anulada</span></td>

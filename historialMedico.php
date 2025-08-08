@@ -48,7 +48,7 @@
              <td>Dr. Rodríguez</td>
              <td>
              <a href="editarCita.php?id=2" class="btn btn-sm btn-outline-primary">
-              <i class="bi bi-pencil-square"></i>
+              <i class="bi bi-pencil-square"></i> Pendiente
 </a>
 </td>
 

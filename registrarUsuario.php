@@ -26,10 +26,24 @@
                    <form method="POST" id="contactForm" name="contactForm" class="contactForm aling-items-center">
                    <div class="row">    
                     <div class="col-md-6 mb-3 my-4">           
-                   <label for="Name" class="form-label">Nombre Completo</label>
+                            
+                                           <label for="id" class="form-label">Cédula</label>
+                                                <input type="text" class="form-control" name="id" id="id"
+                                                placeholder="" required>
+                                            </div>
+
+                                          <div class="col-md-6 mb-3 my-4">           
+                                           <label for="Name" class="form-label">Nombre</label>
                                                 <input type="text" class="form-control" name="Name" id="Name"
                                                 placeholder="" required>
                                             </div>
+
+                                            <div class="col-md-6 mb-3 my-4">
+                                                <label for="name" class="form-label">Apellidos</label>
+                                                <input type="name" class="form-control" name="name" id="name"
+                                                    placeholder="" required>
+                                            </div>
+
 
                                             <div class="col-md-6 mb-3 my-4">
                                                 <label for="Email" class="form-label">Correo Electrónico</label>

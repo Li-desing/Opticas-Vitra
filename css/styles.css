@@ -278,6 +278,16 @@ color: white !important;
   background-color: #e4ded7 !important;
   
 }
+.filtro-personal{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.filtro-personal input,
+.filtro-personal .form-select.is-valid:not([multiple]):not([size]){
+  max-width: 250px;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {

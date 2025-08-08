@@ -27,16 +27,24 @@
 
         <form action="forms/editarPersonal.php" method="post" role="form" class="php-email-form">
           <div class="row">
-            <div class="col-md-4 form-group text-center">
-                <label for="date" class="form-label">Nombre Completo</label>
-              <input type="text" name="name" class="form-control" id="name" placeholder="Chase Gonzalez Matarrita" required="">
+              <div class="col-md-4 form-group text-center">
+                <label for="id" class="form-label">Cédula</label>
+              <input type="text" name="name" class="form-control" id="name" placeholder="667262259" required="">
             </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0 text-center">
-                <label for="date" class="form-label">Correo Electrónico</label>
+            <div class="col-md-4 form-group text-center">
+                <label for="name" class="form-label">Nombre</label>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Chase" required="">
+            </div>
+             <div class="col-md-4 form-group text-center">
+                <label for="name" class="form-label">Apellidos</label>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Gonzalez Matarrita" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3 text-center my-4">
+                <label for="email" class="form-label">Correo Electrónico</label>
               <input type="email" class="form-control" name="email" id="email" placeholder="c@gmail.com" required="">
             </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0 text-center">
-                <label for="date" class="form-label">Número de Teléfono</label>
+            <div class="col-md-4 form-group mt-3 text-center my-4">
+                <label for="tel" class="form-label">Número de Teléfono</label>
               <input type="tel" class="form-control" name="phone" id="phone" placeholder="888888" required="">
             </div>
           

@@ -13,9 +13,7 @@ function MostrarMenu(){
                             <li class="nav-item"><a class="nav-link" href="contact.php">Contacto</a></li>
                             <li class="nav-item"><a class="nav-link" href="anteojos.php">Anteojos</a></li>
                             <li class="nav-item"><a class="nav-link" href="iniciarSesion.php">Iniciar Sesión</a></li>
-                            <li class="nav-item"><a class="nav-link" href="inventario.php">Inventario</a></li>
-                            <li class="nav-item"><a class="nav-link" href="facturacion.php">Facturación</a></li>
-                            <li class="nav-item"><a class="nav-link" href="reportes.php">Reportes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="personal.php">Personal</a></li>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Citas</a>
@@ -24,17 +22,20 @@ function MostrarMenu(){
                                     <li><a class="dropdown-item" href="historialMedico.php">Historial Médico</a></li>
                                 </ul>
                                 </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Personal</a>
+                                 <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administración</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                 <li><a class="dropdown-item" href="registrarPersonal.php">Registrar Personal</a></li>
-                                 <li><a class="dropdown-item" href="personal.php">Personal</a></li>
+                                    <li><a class="dropdown-item" href="reportes.php">Reportes</a></li>
+                                    <li><a class="dropdown-item" href="inventario.php">Inventario</a></li>
+                                    <li><a class="dropdown-item" href="facturacion.php">Facturacion</a></li>
                                 </ul>
-                            </li>
+                                </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Perfil</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
                                     <li><a class="dropdown-item" href="editarPerfil.php">Editar Perfil</a></li>
+                                    <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
                                    
                                 </ul>
                             </li>

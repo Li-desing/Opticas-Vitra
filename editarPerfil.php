@@ -27,10 +27,20 @@
 
         <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
           <div class="row">
-            <div class="col-md-4 form-group text-center">
-                <label for="date" class="form-label">Nombre Completo</label>
-              <input type="text" name="name" class="form-control" id="name" placeholder="Chase Gonzalez Matarrita" required="">
-            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0 text-center">
+            <label for="id" class="form-label">Cédula</label>
+            <input type="text" class="form-control" name="id" id="id" placeholder="" required>
+              </div>
+
+              <div class="col-md-4 form-group mt-3 mt-md-0 text-center">      
+              <label for="Name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" name="Name" id="Name" placeholder="" required>
+               </div>
+
+             <div class="col-md-4 form-group mt-3 mt-md-0 text-center mb-3">
+             <label for="name" class="form-label">Apellidos</label>
+              <input type="name" class="form-control" name="name" id="name"placeholder="" required>
+           </div>
             <div class="col-md-4 form-group mt-3 mt-md-0 text-center">
                 <label for="date" class="form-label">Correo Electrónico</label>
               <input type="email" class="form-control" name="email" id="email" placeholder="c@gmail.com" required="">

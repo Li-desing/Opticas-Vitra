@@ -21,8 +21,24 @@
 </div>
 
 <!--filtro-->
-<div class="mb-4">
-    <input type="text" id="filtroProducto" class="form-control" placeholder="Buscar producto..">
+<div class="d-flex justify-content-center">
+<form class="row g-3 align-items-end mb-4">
+    
+<div class="col-md-6">
+  <label for="cedulaInput" class="form-label">Filtrar por código</label>
+   <input type="text" id="codigoInput" class="form-control" placeholder="5555">   
+</div>
+
+    <div class="col-md-6">
+        <label for="sucursalSelect" class="form-label">Sucursales</label>
+        <select id="sucursalSelect" class="form-select">
+        <option value="">Todas las Sucursales</option>
+        <option value="Sucursal 1">Sucursal 1</option>
+        <option value="Sucursal 2">Sucursal 2</option>
+        <option value="Sucursal 3">Sucursal 3</option>
+        </select>
+</div>
+</form>
 </div>
 
 <div class="row" id="listaProductos">
