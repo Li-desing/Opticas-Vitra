@@ -58,7 +58,7 @@
 </div>
 <div class="d-flex justify-content-end my-2">
                         <button class="btn btn-editar btn-sm me-2">Editar</button>
-                        <button class="btn btn-eliminar btn-sm">Eliminar</button>
+                        <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                      </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
 </div>
 <div class="d-flex justify-content-end my-2">
                       <button class="btn btn-editar btn-sm me-2">Editar</button>
-                        <button class="btn btn-eliminar btn-sm">Eliminar</button>
+                      <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
 </div>
 <div class="d-flex justify-content-end my-2">
                       <button class="btn btn-editar btn-sm me-2">Editar</button>
-                        <button class="btn btn-eliminar btn-sm">Eliminar</button>
+                      <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
 </div>
 <div class="d-flex justify-content-end my-2">
                       <button class="btn btn-editar btn-sm me-2">Editar</button>
-                        <button class="btn btn-eliminar btn-sm">Eliminar</button>
+                      <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
 </div>
 <div class="d-flex justify-content-end my-2">
                       <button class="btn btn-editar btn-sm me-2">Editar</button>
-                        <button class="btn btn-eliminar btn-sm">Eliminar</button>
+                      <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
 </div>
 <div class="d-flex justify-content-end my-2">
                       <button class="btn btn-editar btn-sm me-2">Editar</button>
-                        <button class="btn btn-eliminar btn-sm">Eliminar</button>
+                      <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
                 </div>
@@ -188,9 +188,7 @@
 </div>
 <div class="d-flex justify-content-end my-2">
                       <button class="btn btn-editar btn-sm me-2">Editar</button>
-                        <button class="btn btn-eliminar btn-sm">Eliminar</button>
-                        </div>
-                    </div>
+                      <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                 </div>
             </div>
         </div>
@@ -198,6 +196,25 @@
 
     <?php MostrarFooter(); ?>
     <?php IncluirScripts(); ?>
+
+    <!-- Modal confirmación eliminar -->
+<div class="modal fade" id="confirmarEliminarModal" tabindex="-1" aria-labelledby="confirmarEliminarLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmarEliminarLabel">Confirmar eliminación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        ¿Estás seguro que quieres eliminar este producto?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger">Sí, eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
