@@ -45,11 +45,11 @@ function MostrarMenu(){
             </nav>';
 }
 function MostrarFooter(){
-	echo '<footer class="footer">
+	echo '<footer class="footer bg-ligth py-3 mt-5">
         <div class="container">
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-md-12 text-center">
-
+                <p class="mb-0">    
                     <p class="copyright">
                         <!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>

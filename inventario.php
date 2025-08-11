@@ -57,7 +57,7 @@
 </div>
 </div>
 <div class="d-flex justify-content-end my-2">
-                        <button class="btn btn-editar btn-sm me-2">Editar</button>
+                        <a href="editarProducto.php?id=2" class="btn btn-editar btn-sm me-2">Editar</a>
                         <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                      </div>
                 </div>
@@ -79,7 +79,7 @@
 </div>
 </div>
 <div class="d-flex justify-content-end my-2">
-                      <button class="btn btn-editar btn-sm me-2">Editar</button>
+                      <a href="editarProducto.php?id=2" class="btn btn-editar btn-sm me-2">Editar</a>
                       <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
 </div>
 </div>
 <div class="d-flex justify-content-end my-2">
-                      <button class="btn btn-editar btn-sm me-2">Editar</button>
+                      <a href="editarProducto.php?id=2" class="btn btn-editar btn-sm me-2">Editar</a>
                       <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
 </div>
 </div>
 <div class="d-flex justify-content-end my-2">
-                      <button class="btn btn-editar btn-sm me-2">Editar</button>
+                      <a href="editarProducto.php?id=2" class="btn btn-editar btn-sm me-2">Editar</a>
                       <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
 </div>
 </div>
 <div class="d-flex justify-content-end my-2">
-                      <button class="btn btn-editar btn-sm me-2">Editar</button>
+                      <a href="editarProducto.php?id=2" class="btn btn-editar btn-sm me-2">Editar</a>
                       <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
 </div>
 </div>
 <div class="d-flex justify-content-end my-2">
-                      <button class="btn btn-editar btn-sm me-2">Editar</button>
+                      <a href="editarProducto.php?id=2" class="btn btn-editar btn-sm me-2">Editar</a>
                       <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
 </div>
 </div>
 <div class="d-flex justify-content-end my-2">
-                      <button class="btn btn-editar btn-sm me-2">Editar</button>
+                      <a href="editarProducto.php?id=2" class="btn btn-editar btn-sm me-2">Editar</a>
                       <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarModal">Eliminar</button>
                 </div>
             </div>
